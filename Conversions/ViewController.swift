@@ -80,6 +80,26 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             resultado = medida!
             resultadoTextField.text = "\(String(describing: resultado!))"
         }
+        
+        
+    }
+    
+    @IBAction func historyTapped(_ sender: Any) {
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let conversion = Conversion(context: context)
+        
+        conversion.number = medidaTextField.text!
+        conversion.result = resultadoTextField.text!
+        conversion.medida1 = firstTextField.text!
+        conversion.medida2 = secondTextField.text!
+        
+        print(conversion.number!)
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        let homeView = self.storyboard?.instantiateViewController(withIdentifier: "historyView") as! HistoryViewController
+        self.navigationController?.pushViewController(homeView, animated: true)
+
     }
     
 }

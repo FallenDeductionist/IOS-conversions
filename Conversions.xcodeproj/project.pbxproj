@@ -13,6 +13,7 @@
 		77FEA12622822B9600DEE345 /* Conversions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77FEA12422822B9600DEE345 /* Conversions.xcdatamodeld */; };
 		77FEA12822822B9B00DEE345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FEA12722822B9B00DEE345 /* Assets.xcassets */; };
 		77FEA12B22822B9B00DEE345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FEA12922822B9B00DEE345 /* LaunchScreen.storyboard */; };
+		77FEA133228250AB00DEE345 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FEA132228250AB00DEE345 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77FEA12722822B9B00DEE345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FEA12A22822B9B00DEE345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FEA12C22822B9B00DEE345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FEA132228250AB00DEE345 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				77FEA11D22822B9600DEE345 /* AppDelegate.swift */,
 				77FEA11F22822B9600DEE345 /* ViewController.swift */,
 				77FEA12122822B9600DEE345 /* Main.storyboard */,
+				77FEA132228250AB00DEE345 /* HistoryViewController.swift */,
 				77FEA12722822B9B00DEE345 /* Assets.xcassets */,
 				77FEA12922822B9B00DEE345 /* LaunchScreen.storyboard */,
 				77FEA12C22822B9B00DEE345 /* Info.plist */,
@@ -141,6 +144,7 @@
 				77FEA12022822B9600DEE345 /* ViewController.swift in Sources */,
 				77FEA11E22822B9600DEE345 /* AppDelegate.swift in Sources */,
 				77FEA12622822B9600DEE345 /* Conversions.xcdatamodeld in Sources */,
+				77FEA133228250AB00DEE345 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
